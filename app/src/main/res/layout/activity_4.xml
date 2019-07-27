@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4">
+
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/border"
+        android:scaleType="center"
+        android:src="@drawable/cat" />
+
+    <TextView
+        android:id="@+id/text4"
+
+        android:layout_width="308dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/imageButton4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="35dp"
+        android:text="Touch the image to hear sound"
+        android:textColor="#808080"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_below="@+id/text4"
+        android:gravity="center"
+        android:text="Name: Cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold|normal"
+        android:background="#FFF111"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/tt4"
+        android:layout_below="@+id/tv4"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Sound: Meowing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold|normal"
+        android:background="#FFF111"
+        />
+    <TextView
+        android:layout_below="@+id/tt4"
+        android:layout_marginTop="10dp"
+
+        android:gravity="center"
+        android:text="Type: Domestic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold|normal"
+        android:background="#FFF111"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:background="@drawable/bg"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="27dp"
+        android:onClick="FifthActivity"
+        android:text="Next" />
+
+</RelativeLayout>

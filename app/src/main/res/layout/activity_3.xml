@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity3">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/border"
+        android:scaleType="center"
+        android:src="@drawable/sheep" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="308dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/imageButton3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="35dp"
+        android:text="Touch the image to hear sound"
+        android:textColor="#808080"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_below="@+id/text3"
+        android:gravity="center"
+        android:text="Name: Sheep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold|normal"
+        android:background="#FFF111"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/tt3"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="10dp"
+
+        android:gravity="center"
+        android:text="Sound: Bleating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold|normal"
+        android:background="#FFF111"
+        />
+    <TextView
+        android:layout_below="@+id/tt3"
+        android:layout_marginTop="10dp"
+
+        android:gravity="center"
+        android:text="Type: Domestic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold|normal"
+        android:background="#FFF111"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:background="@drawable/bg"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="27dp"
+        android:onClick="FourthActivity"
+        android:text="Next" />
+
+</RelativeLayout>
